@@ -3,9 +3,6 @@ import MovieCard from './components/MovieCard';
 import './App.css';
 
 const API_KEY = 'fd23445c';
-
-// MovieDetailsPopup component moved inside App.jsx for demonstration,
-// but ideally it should be in its own file like components/MovieDetailsPopup.jsx
 function MovieDetailsPopup({ movie, onClose, loading }) {
   if (loading) {
     return (
